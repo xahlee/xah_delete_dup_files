@@ -1,0 +1,16 @@
+-*- coding: utf-8 -*-
+
+2012-12-30
+
+* Delete Duplicate Files
+
+A Perl script that delete duplicate files in a dir and all subdirs.
+
+The perl version is in subdir 〔del_dup_perl〕
+
+Typically works on a dir with 30 thousand files. It minimizes comparison. Only files that are exactly identical are deleted.
+
+There's also a Python version. (but haven't been heavily tested)
+The Python version is at 〔del_dup_python〕
+
+There's also a Java version. (but i think it's incomplete.)
